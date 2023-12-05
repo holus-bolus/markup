@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
     font-family: Poppins, sans-serif;
 }
@@ -216,6 +218,15 @@ td {
 
 }
 
+.table-header {
+    color: #B5B7C0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
 .status {
     display: block;
     text-align: center;
@@ -320,11 +331,21 @@ td {
     margin-top: 20px;
 }
 
+.pagination-text{
+    color: #B5B7C0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
 .pagination-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 .pagination-link {
